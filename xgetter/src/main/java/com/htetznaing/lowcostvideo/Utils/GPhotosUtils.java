@@ -46,10 +46,10 @@ public class GPhotosUtils {
         ArrayList<XModel> xModels = new ArrayList<>();
         boolean p18=false,p22=false,p37=false,p36=false;
 
-        String or = getOriginal(string);
-        if (or!=null) {
-            putModel(getOriginal(string), "Original", xModels);
-        }
+//         String or = getOriginal(string);
+//         if (or!=null) {
+//             putModel(getOriginal(string), "Original", xModels);
+//         }
 
         while (matcher.find()) {
             switch (matcher.group(2)){
